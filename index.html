@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://unipacto.com.br/images/favicon/favicon-32x32.png"
+    />
+    <title>IMC</title>
+  </head>
+  <body>
+    <section>
+      <h1>Calcule seu IMC:</h1>
+      <form action="./assets/php/imc.php" method="post">
+        <label for="2">Peso: </label>
+        <input
+          id="2"
+          name="weight"
+          type="number"
+          placeholder="Peso"
+          step="any"
+          min="0"
+          matheus="barbicha"
+          required
+        />
+
+        <label for="3">Altura: </label>
+        <input
+          id="3"
+          name="height"
+          type="number"
+          placeholder="Altura"
+          step="any"
+          min="0"
+          required
+        />
+
+        <button type="submit">Calcular</button>
+      </form>
+    </section>
+  </body>
+</html>
